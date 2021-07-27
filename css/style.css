@@ -182,8 +182,8 @@ header .top_header .navbar .navbar-nav .nav-item .nav-link::after{
     align-items: center;
     position: relative;
 }
-.top_header .search input[type="text"]{   
-    padding: 4px 35px 4px 5px;
+.top_header .search input[type="text"]{
+    padding: 5px 35px 5px 5px;
 }
 .top_header .search input[type="text"]::placeholder{
     color: #b9b9b9;
@@ -978,6 +978,7 @@ footer .footer_social_links a i{
 footer .footer_social_links a:hover i{
     color: #ffff;
     background-color: #F39C12;
+    transform: translateY(-2.5px);
 }
 footer .copyright{
     padding: 30px 30px;
